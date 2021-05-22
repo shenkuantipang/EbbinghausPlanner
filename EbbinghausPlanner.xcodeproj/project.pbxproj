@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0144BAC806560AD1030A8AA8 /* Pods_EbbinghausPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D357C99A7A263AED8E6F8CF1 /* Pods_EbbinghausPlanner.framework */; };
+		1B8E7A084F2E38D3CB6D3CA6 /* Pods_EbbinghausPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4DB41CB5C1DABD7FE43027 /* Pods_EbbinghausPlannerTests.framework */; };
 		768803FB26593A20000DBF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768803FA26593A20000DBF13 /* AppDelegate.swift */; };
 		768803FD26593A20000DBF13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768803FC26593A20000DBF13 /* SceneDelegate.swift */; };
 		768803FF26593A20000DBF13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768803FE26593A20000DBF13 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		7688040A26593A22000DBF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7688040826593A22000DBF13 /* LaunchScreen.storyboard */; };
 		7688041526593A22000DBF13 /* EbbinghausPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688041426593A22000DBF13 /* EbbinghausPlannerTests.swift */; };
 		7688042026593A22000DBF13 /* EbbinghausPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688041F26593A22000DBF13 /* EbbinghausPlannerUITests.swift */; };
+		F702E5769FB9B19B05367F51 /* Pods_EbbinghausPlanner_EbbinghausPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48E3558DE1071AB2F86F917 /* Pods_EbbinghausPlanner_EbbinghausPlannerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015908CE9542D07FB08AA4C1 /* Pods-EbbinghausPlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlannerTests.release.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlannerTests/Pods-EbbinghausPlannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B895EDBFAA2DF86CE3F84F7 /* Pods-EbbinghausPlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlannerTests.debug.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlannerTests/Pods-EbbinghausPlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D9EBD4D8CC73482FA891D82 /* Pods-EbbinghausPlanner-EbbinghausPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner-EbbinghausPlannerUITests.release.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		67A18FB5BD2824573ACC95C2 /* Pods-EbbinghausPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner.release.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner/Pods-EbbinghausPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		6C4DB41CB5C1DABD7FE43027 /* Pods_EbbinghausPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EbbinghausPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		768803F726593A20000DBF13 /* EbbinghausPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbbinghausPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768803FA26593A20000DBF13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		768803FC26593A20000DBF13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		7688041B26593A22000DBF13 /* EbbinghausPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbbinghausPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7688041F26593A22000DBF13 /* EbbinghausPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbbinghausPlannerUITests.swift; sourceTree = "<group>"; };
 		7688042126593A22000DBF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D357C99A7A263AED8E6F8CF1 /* Pods_EbbinghausPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EbbinghausPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AF160D2243E3C56FF16E33 /* Pods-EbbinghausPlanner-EbbinghausPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner-EbbinghausPlannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8D7787D86BF170D7267EC4C /* Pods-EbbinghausPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner.debug.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner/Pods-EbbinghausPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		F48E3558DE1071AB2F86F917 /* Pods_EbbinghausPlanner_EbbinghausPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EbbinghausPlanner_EbbinghausPlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0144BAC806560AD1030A8AA8 /* Pods_EbbinghausPlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8E7A084F2E38D3CB6D3CA6 /* Pods_EbbinghausPlannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F702E5769FB9B19B05367F51 /* Pods_EbbinghausPlanner_EbbinghausPlannerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		628FA9C34BFF1A39E38A5E40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7787D86BF170D7267EC4C /* Pods-EbbinghausPlanner.debug.xcconfig */,
+				67A18FB5BD2824573ACC95C2 /* Pods-EbbinghausPlanner.release.xcconfig */,
+				D5AF160D2243E3C56FF16E33 /* Pods-EbbinghausPlanner-EbbinghausPlannerUITests.debug.xcconfig */,
+				2D9EBD4D8CC73482FA891D82 /* Pods-EbbinghausPlanner-EbbinghausPlannerUITests.release.xcconfig */,
+				1B895EDBFAA2DF86CE3F84F7 /* Pods-EbbinghausPlannerTests.debug.xcconfig */,
+				015908CE9542D07FB08AA4C1 /* Pods-EbbinghausPlannerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		768803EE26593A20000DBF13 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				7688041326593A22000DBF13 /* EbbinghausPlannerTests */,
 				7688041E26593A22000DBF13 /* EbbinghausPlannerUITests */,
 				768803F826593A20000DBF13 /* Products */,
+				628FA9C34BFF1A39E38A5E40 /* Pods */,
+				7F9144C4758CAE89F2E802D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +132,13 @@
 		768803F926593A20000DBF13 /* EbbinghausPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				7688042F26593A54000DBF13 /* Model */,
+				7688042D26593A40000DBF13 /* View */,
+				7688042E26593A49000DBF13 /* Controller */,
 				768803FA26593A20000DBF13 /* AppDelegate.swift */,
 				768803FC26593A20000DBF13 /* SceneDelegate.swift */,
-				768803FE26593A20000DBF13 /* ViewController.swift */,
-				7688040026593A20000DBF13 /* Main.storyboard */,
 				7688040626593A22000DBF13 /* Assets.xcassets */,
-				7688040826593A22000DBF13 /* LaunchScreen.storyboard */,
 				7688040B26593A22000DBF13 /* Info.plist */,
-				7688040326593A20000DBF13 /* EbbinghausPlanner.xcdatamodeld */,
 			);
 			path = EbbinghausPlanner;
 			sourceTree = "<group>";
@@ -131,6 +161,41 @@
 			path = EbbinghausPlannerUITests;
 			sourceTree = "<group>";
 		};
+		7688042D26593A40000DBF13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7688040026593A20000DBF13 /* Main.storyboard */,
+				7688040826593A22000DBF13 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7688042E26593A49000DBF13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				768803FE26593A20000DBF13 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7688042F26593A54000DBF13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7688040326593A20000DBF13 /* EbbinghausPlanner.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7F9144C4758CAE89F2E802D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D357C99A7A263AED8E6F8CF1 /* Pods_EbbinghausPlanner.framework */,
+				F48E3558DE1071AB2F86F917 /* Pods_EbbinghausPlanner_EbbinghausPlannerUITests.framework */,
+				6C4DB41CB5C1DABD7FE43027 /* Pods_EbbinghausPlannerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7688042426593A22000DBF13 /* Build configuration list for PBXNativeTarget "EbbinghausPlanner" */;
 			buildPhases = (
+				AEEBE2B67E3833962AA478FB /* [CP] Check Pods Manifest.lock */,
 				768803F326593A20000DBF13 /* Sources */,
 				768803F426593A20000DBF13 /* Frameworks */,
 				768803F526593A20000DBF13 /* Resources */,
+				6A15205A6938AC5CFBBC4E34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7688042726593A22000DBF13 /* Build configuration list for PBXNativeTarget "EbbinghausPlannerTests" */;
 			buildPhases = (
+				826461496AACD86F70049CA9 /* [CP] Check Pods Manifest.lock */,
 				7688040C26593A22000DBF13 /* Sources */,
 				7688040D26593A22000DBF13 /* Frameworks */,
 				7688040E26593A22000DBF13 /* Resources */,
@@ -173,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7688042A26593A22000DBF13 /* Build configuration list for PBXNativeTarget "EbbinghausPlannerUITests" */;
 			buildPhases = (
+				D6E3BA585216F93C1010723F /* [CP] Check Pods Manifest.lock */,
 				7688041726593A22000DBF13 /* Sources */,
 				7688041826593A22000DBF13 /* Frameworks */,
 				7688041926593A22000DBF13 /* Resources */,
+				4CDFC594D6DB1EEEE56C3475 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +325,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CDFC594D6DB1EEEE56C3475 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A15205A6938AC5CFBBC4E34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner/Pods-EbbinghausPlanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner/Pods-EbbinghausPlanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner/Pods-EbbinghausPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826461496AACD86F70049CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EbbinghausPlannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEBE2B67E3833962AA478FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EbbinghausPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E3BA585216F93C1010723F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		768803F326593A20000DBF13 /* Sources */ = {
@@ -437,6 +610,7 @@
 		};
 		7688042526593A22000DBF13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D7787D86BF170D7267EC4C /* Pods-EbbinghausPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +630,7 @@
 		};
 		7688042626593A22000DBF13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A18FB5BD2824573ACC95C2 /* Pods-EbbinghausPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +650,7 @@
 		};
 		7688042826593A22000DBF13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B895EDBFAA2DF86CE3F84F7 /* Pods-EbbinghausPlannerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +673,7 @@
 		};
 		7688042926593A22000DBF13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015908CE9542D07FB08AA4C1 /* Pods-EbbinghausPlannerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +696,7 @@
 		};
 		7688042B26593A22000DBF13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AF160D2243E3C56FF16E33 /* Pods-EbbinghausPlanner-EbbinghausPlannerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +717,7 @@
 		};
 		7688042C26593A22000DBF13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9EBD4D8CC73482FA891D82 /* Pods-EbbinghausPlanner-EbbinghausPlannerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
