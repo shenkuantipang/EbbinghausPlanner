@@ -3,12 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0144BAC806560AD1030A8AA8 /* Pods_EbbinghausPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D357C99A7A263AED8E6F8CF1 /* Pods_EbbinghausPlanner.framework */; };
 		1B8E7A084F2E38D3CB6D3CA6 /* Pods_EbbinghausPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4DB41CB5C1DABD7FE43027 /* Pods_EbbinghausPlannerTests.framework */; };
+		764292702666438C00A14DA9 /* PopOverCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642926E2666438C00A14DA9 /* PopOverCalendarViewController.swift */; };
+		768240FF265A43F000135BB6 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768240FE265A43F000135BB6 /* TaskViewController.swift */; };
+		7682414D265A79EA00135BB6 /* TaskItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682414B265A79EA00135BB6 /* TaskItemCell.swift */; };
+		7682414E265A79EA00135BB6 /* TaskItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7682414C265A79EA00135BB6 /* TaskItemCell.xib */; };
+		76824150265A82FC00135BB6 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682414F265A82FC00135BB6 /* AddTaskViewController.swift */; };
+		76824156265AA5D000135BB6 /* PreviewCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76824155265AA5D000135BB6 /* PreviewCalendarCell.swift */; };
 		768803FB26593A20000DBF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768803FA26593A20000DBF13 /* AppDelegate.swift */; };
 		768803FD26593A20000DBF13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768803FC26593A20000DBF13 /* SceneDelegate.swift */; };
 		768803FF26593A20000DBF13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768803FE26593A20000DBF13 /* ViewController.swift */; };
@@ -18,6 +24,12 @@
 		7688040A26593A22000DBF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7688040826593A22000DBF13 /* LaunchScreen.storyboard */; };
 		7688041526593A22000DBF13 /* EbbinghausPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688041426593A22000DBF13 /* EbbinghausPlannerTests.swift */; };
 		7688042026593A22000DBF13 /* EbbinghausPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688041F26593A22000DBF13 /* EbbinghausPlannerUITests.swift */; };
+		769B7DEF2666A08B002228B6 /* PopOverTimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B7DEE2666A08B002228B6 /* PopOverTimePickerViewController.swift */; };
+		769B7E6F26678058002228B6 /* TaskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B7E6E26678058002228B6 /* TaskHandler.swift */; };
+		769B7E712667D312002228B6 /* GlobalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769B7E702667D312002228B6 /* GlobalExtensions.swift */; };
+		76ECD276266B8070002BC6D7 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECD275266B8070002BC6D7 /* EditTaskViewController.swift */; };
+		76ECD278266BDD5E002BC6D7 /* ChildTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECD277266BDD5E002BC6D7 /* ChildTask.swift */; };
+		76ECD27A266BDE43002BC6D7 /* ParentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECD279266BDE43002BC6D7 /* ParentTask.swift */; };
 		F702E5769FB9B19B05367F51 /* Pods_EbbinghausPlanner_EbbinghausPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48E3558DE1071AB2F86F917 /* Pods_EbbinghausPlanner_EbbinghausPlannerUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +56,12 @@
 		2D9EBD4D8CC73482FA891D82 /* Pods-EbbinghausPlanner-EbbinghausPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner-EbbinghausPlannerUITests.release.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		67A18FB5BD2824573ACC95C2 /* Pods-EbbinghausPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner.release.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner/Pods-EbbinghausPlanner.release.xcconfig"; sourceTree = "<group>"; };
 		6C4DB41CB5C1DABD7FE43027 /* Pods_EbbinghausPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EbbinghausPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7642926E2666438C00A14DA9 /* PopOverCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverCalendarViewController.swift; sourceTree = "<group>"; };
+		768240FE265A43F000135BB6 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		7682414B265A79EA00135BB6 /* TaskItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemCell.swift; sourceTree = "<group>"; };
+		7682414C265A79EA00135BB6 /* TaskItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskItemCell.xib; sourceTree = "<group>"; };
+		7682414F265A82FC00135BB6 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		76824155265AA5D000135BB6 /* PreviewCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCalendarCell.swift; sourceTree = "<group>"; };
 		768803F726593A20000DBF13 /* EbbinghausPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbbinghausPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768803FA26593A20000DBF13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		768803FC26593A20000DBF13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +77,12 @@
 		7688041B26593A22000DBF13 /* EbbinghausPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbbinghausPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7688041F26593A22000DBF13 /* EbbinghausPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbbinghausPlannerUITests.swift; sourceTree = "<group>"; };
 		7688042126593A22000DBF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769B7DEE2666A08B002228B6 /* PopOverTimePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverTimePickerViewController.swift; sourceTree = "<group>"; };
+		769B7E6E26678058002228B6 /* TaskHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskHandler.swift; sourceTree = "<group>"; };
+		769B7E702667D312002228B6 /* GlobalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalExtensions.swift; sourceTree = "<group>"; };
+		76ECD275266B8070002BC6D7 /* EditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
+		76ECD277266BDD5E002BC6D7 /* ChildTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildTask.swift; sourceTree = "<group>"; };
+		76ECD279266BDE43002BC6D7 /* ParentTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentTask.swift; sourceTree = "<group>"; };
 		D357C99A7A263AED8E6F8CF1 /* Pods_EbbinghausPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EbbinghausPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AF160D2243E3C56FF16E33 /* Pods-EbbinghausPlanner-EbbinghausPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner-EbbinghausPlannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8D7787D86BF170D7267EC4C /* Pods-EbbinghausPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner.debug.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner/Pods-EbbinghausPlanner.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,8 +127,16 @@
 				1B895EDBFAA2DF86CE3F84F7 /* Pods-EbbinghausPlannerTests.debug.xcconfig */,
 				015908CE9542D07FB08AA4C1 /* Pods-EbbinghausPlannerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		76824157265AA79500135BB6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7682414B265A79EA00135BB6 /* TaskItemCell.swift */,
+				76824155265AA5D000135BB6 /* PreviewCalendarCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		768803EE26593A20000DBF13 = {
@@ -164,8 +196,9 @@
 		7688042D26593A40000DBF13 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7688040026593A20000DBF13 /* Main.storyboard */,
 				7688040826593A22000DBF13 /* LaunchScreen.storyboard */,
+				7688040026593A20000DBF13 /* Main.storyboard */,
+				7682414C265A79EA00135BB6 /* TaskItemCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,7 +206,13 @@
 		7688042E26593A49000DBF13 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76824157265AA79500135BB6 /* Cells */,
 				768803FE26593A20000DBF13 /* ViewController.swift */,
+				768240FE265A43F000135BB6 /* TaskViewController.swift */,
+				7682414F265A82FC00135BB6 /* AddTaskViewController.swift */,
+				7642926E2666438C00A14DA9 /* PopOverCalendarViewController.swift */,
+				769B7DEE2666A08B002228B6 /* PopOverTimePickerViewController.swift */,
+				76ECD275266B8070002BC6D7 /* EditTaskViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -182,6 +221,10 @@
 			isa = PBXGroup;
 			children = (
 				7688040326593A20000DBF13 /* EbbinghausPlanner.xcdatamodeld */,
+				76ECD279266BDE43002BC6D7 /* ParentTask.swift */,
+				76ECD277266BDD5E002BC6D7 /* ChildTask.swift */,
+				769B7E6E26678058002228B6 /* TaskHandler.swift */,
+				769B7E702667D312002228B6 /* GlobalExtensions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -207,7 +250,7 @@
 				768803F326593A20000DBF13 /* Sources */,
 				768803F426593A20000DBF13 /* Frameworks */,
 				768803F526593A20000DBF13 /* Resources */,
-				6A15205A6938AC5CFBBC4E34 /* [CP] Embed Pods Frameworks */,
+				0DF0017957B38BFC8F06104D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,7 +288,7 @@
 				7688041726593A22000DBF13 /* Sources */,
 				7688041826593A22000DBF13 /* Frameworks */,
 				7688041926593A22000DBF13 /* Resources */,
-				4CDFC594D6DB1EEEE56C3475 /* [CP] Embed Pods Frameworks */,
+				A781808972C0465EA385AA0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,6 +350,7 @@
 				7688040A26593A22000DBF13 /* LaunchScreen.storyboard in Resources */,
 				7688040726593A22000DBF13 /* Assets.xcassets in Resources */,
 				7688040226593A20000DBF13 /* Main.storyboard in Resources */,
+				7682414E265A79EA00135BB6 /* TaskItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,24 +371,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4CDFC594D6DB1EEEE56C3475 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A15205A6938AC5CFBBC4E34 /* [CP] Embed Pods Frameworks */ = {
+		0DF0017957B38BFC8F06104D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,6 +408,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A781808972C0465EA385AA0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EbbinghausPlanner-EbbinghausPlannerUITests/Pods-EbbinghausPlanner-EbbinghausPlannerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AEEBE2B67E3833962AA478FB /* [CP] Check Pods Manifest.lock */ = {
@@ -435,7 +479,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				768803FF26593A20000DBF13 /* ViewController.swift in Sources */,
+				769B7E6F26678058002228B6 /* TaskHandler.swift in Sources */,
+				76ECD278266BDD5E002BC6D7 /* ChildTask.swift in Sources */,
+				769B7E712667D312002228B6 /* GlobalExtensions.swift in Sources */,
+				769B7DEF2666A08B002228B6 /* PopOverTimePickerViewController.swift in Sources */,
+				764292702666438C00A14DA9 /* PopOverCalendarViewController.swift in Sources */,
+				76ECD276266B8070002BC6D7 /* EditTaskViewController.swift in Sources */,
+				76824150265A82FC00135BB6 /* AddTaskViewController.swift in Sources */,
+				76ECD27A266BDE43002BC6D7 /* ParentTask.swift in Sources */,
 				768803FB26593A20000DBF13 /* AppDelegate.swift in Sources */,
+				76824156265AA5D000135BB6 /* PreviewCalendarCell.swift in Sources */,
+				768240FF265A43F000135BB6 /* TaskViewController.swift in Sources */,
+				7682414D265A79EA00135BB6 /* TaskItemCell.swift in Sources */,
 				7688040526593A20000DBF13 /* EbbinghausPlanner.xcdatamodeld in Sources */,
 				768803FD26593A20000DBF13 /* SceneDelegate.swift in Sources */,
 			);
@@ -617,10 +672,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 497P4L97SV;
 				INFOPLIST_FILE = EbbinghausPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MuffinLabs.EbbinghausPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -637,10 +694,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 497P4L97SV;
 				INFOPLIST_FILE = EbbinghausPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MuffinLabs.EbbinghausPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
