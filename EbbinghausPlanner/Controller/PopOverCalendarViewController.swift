@@ -59,6 +59,7 @@ class PopOverCalendarViewController: UIViewController {
         calendarView.appearance.weekdayTextColor = UIColor(named: "TextColor")
         calendarView.appearance.weekdayTextColor = UIColor(named: "WeekdayTextColor")
         calendarView.appearance.headerTitleColor = UIColor(named: "TextColor")
+        calendarView.appearance.borderRadius = 0.6
         calendarView.dataSource = self
         calendarView.delegate = self
     }

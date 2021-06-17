@@ -10,6 +10,7 @@
 		0144BAC806560AD1030A8AA8 /* Pods_EbbinghausPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D357C99A7A263AED8E6F8CF1 /* Pods_EbbinghausPlanner.framework */; };
 		1B8E7A084F2E38D3CB6D3CA6 /* Pods_EbbinghausPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4DB41CB5C1DABD7FE43027 /* Pods_EbbinghausPlannerTests.framework */; };
 		764292702666438C00A14DA9 /* PopOverCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7642926E2666438C00A14DA9 /* PopOverCalendarViewController.swift */; };
+		767FB10A267AA31F00B815F8 /* CustomFloatingPanelLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767FB109267AA31F00B815F8 /* CustomFloatingPanelLayout.swift */; };
 		768240FF265A43F000135BB6 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768240FE265A43F000135BB6 /* TaskViewController.swift */; };
 		7682414D265A79EA00135BB6 /* TaskItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682414B265A79EA00135BB6 /* TaskItemCell.swift */; };
 		7682414E265A79EA00135BB6 /* TaskItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7682414C265A79EA00135BB6 /* TaskItemCell.xib */; };
@@ -57,6 +58,7 @@
 		67A18FB5BD2824573ACC95C2 /* Pods-EbbinghausPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EbbinghausPlanner.release.xcconfig"; path = "Target Support Files/Pods-EbbinghausPlanner/Pods-EbbinghausPlanner.release.xcconfig"; sourceTree = "<group>"; };
 		6C4DB41CB5C1DABD7FE43027 /* Pods_EbbinghausPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EbbinghausPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7642926E2666438C00A14DA9 /* PopOverCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverCalendarViewController.swift; sourceTree = "<group>"; };
+		767FB109267AA31F00B815F8 /* CustomFloatingPanelLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFloatingPanelLayout.swift; sourceTree = "<group>"; };
 		768240FE265A43F000135BB6 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		7682414B265A79EA00135BB6 /* TaskItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemCell.swift; sourceTree = "<group>"; };
 		7682414C265A79EA00135BB6 /* TaskItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskItemCell.xib; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				76ECD277266BDD5E002BC6D7 /* ChildTask.swift */,
 				769B7E6E26678058002228B6 /* TaskHandler.swift */,
 				769B7E702667D312002228B6 /* GlobalExtensions.swift */,
+				767FB109267AA31F00B815F8 /* CustomFloatingPanelLayout.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				769B7DEF2666A08B002228B6 /* PopOverTimePickerViewController.swift in Sources */,
 				764292702666438C00A14DA9 /* PopOverCalendarViewController.swift in Sources */,
 				76ECD276266B8070002BC6D7 /* EditTaskViewController.swift in Sources */,
+				767FB10A267AA31F00B815F8 /* CustomFloatingPanelLayout.swift in Sources */,
 				76824150265A82FC00135BB6 /* AddTaskViewController.swift in Sources */,
 				76ECD27A266BDE43002BC6D7 /* ParentTask.swift in Sources */,
 				768803FB26593A20000DBF13 /* AppDelegate.swift in Sources */,

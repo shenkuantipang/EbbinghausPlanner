@@ -241,23 +241,29 @@ public extension String{
 public extension FSCalendar{
     func setCalendarScopeToWeek(){
         DispatchQueue.main.async {
-            self.scope = .week
-        }
-        
-        self.alpha = 0.2
-        UIView.animate(withDuration: 0.5) {
-            self.alpha = 1
+            if self.scope == .month{
+                self.scope = .week
+                
+                self.alpha = 0.2
+                UIView.animate(withDuration: 0.5) {
+                    self.alpha = 1
+                }
+            }
         }
     }
     
     func setCalendarScopeToMonth(){
         DispatchQueue.main.async {
-            self.scope = .month
+            if self.scope == .week{
+                self.scope = .month
+                
+                self.alpha = 0.2
+                UIView.animate(withDuration: 0.5) {
+                    self.alpha = 1
+                }
+            }
         }
         
-        self.alpha = 0.2
-        UIView.animate(withDuration: 0.5) {
-            self.alpha = 1
-        }
+        
     }
 }
